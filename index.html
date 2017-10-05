@@ -1,111 +1,170 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Proyecto</title>
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link rel="stylesheet" type="text/css" href="main.css">
-
-</head>
-<body>
-<header class="bck1 valign-wrapper">
-	<h1 class="white-text valign center-block">Reseña de peliculas</h1>
-</header>
-
-  <ul id="slide-out" class="side-nav fixed">
-      <li><a href="#!">First Sidebar Link</a></li>
-      <li><a href="#!">Second Sidebar Link</a></li>
-    </ul>
-    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-
-
-
-<main>
-	<div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
+<html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto</title>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <header class="bck1 valign-wrapper">
+      <h1 style="font-size: 350%;" class="hide-on-med-and-down white-text valign center-block">Reseña de peliculas</h1>
+      <h1 style="font-size: 300%;" class="center show-on-medium-and-down hide-on-med-and-up white-text valign center-block">Reseña de peliculas</h1>
+    </header>
+    
+    <main style="background-color: #424242;">
       <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-          <div class="col s12">
-  			<div class="center-align input-field col s12">
-			  <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
-			    <i class="material-icons right">send</i>
-			  </button>
-  			</div>
-  		</div>	
+        <div id="navleft" class="col l2 s12 m12">
+          <table class="responsive-table">
+            <tbody>
+              <tr>
+                <td class="center-align">
+                  <a class="grey-text lighten-2-text" href="index.html">Inicio</a>
+                </td>
+              </tr>
+              <tr>
+                <td class="center-align">
+                  <a class="grey-text lighten-2-text" href="secciones.html">Secciones</a>
+                </td>
+              </tr>
+              <tr>
+                <td class="center-align">
+                  <a class="grey-text lighten-2-text" href="acerca.html">Acerca de</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
+        <div class="container">
+          <div id="contenido" class="col s12 m9 l10 z-depth-2">
+            
+            <div class="col l6 m12 s12">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/alien.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Alien<i class="material-icons right">more_vert</i></span>
+                  <p><a href="secciones.html">Ver más...</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Nausicaä<i class="material-icons right">close</i></span>
+                  <p>Nausicaä del Valle del Viento es una película de animación japonesa creada por Hayao Miyazaki en 1984, e inspirada en la novela gráfica homónima creado por el propio Miyazaki en el año 1982.</p>
+                </div>
+              </div>
+            </div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
+            <div class="col l6 m12 s12">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/naranja.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Naranja Mecanica<i class="material-icons right">more_vert</i></span>
+                  <p><a href="secciones.html">Ver más...</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Nausicaä<i class="material-icons right">close</i></span>
+                  <p>Nausicaä del Valle del Viento es una película de animación japonesa creada por Hayao Miyazaki en 1984, e inspirada en la novela gráfica homónima creado por el propio Miyazaki en el año 1982.</p>
+                </div>
+              </div>
+            </div>
 
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <div class="col l6 m12 s12">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/goodfellas.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Good Fellas<i class="material-icons right">more_vert</i></span>
+                  <p><a href="secciones.html">Ver más...</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Nausicaä<i class="material-icons right">close</i></span>
+                  <p>Nausicaä del Valle del Viento es una película de animación japonesa creada por Hayao Miyazaki en 1984, e inspirada en la novela gráfica homónima creado por el propio Miyazaki en el año 1982.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col l6 m12 s12">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/scarface.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Scarface<i class="material-icons right">more_vert</i></span>
+                  <p><a href="secciones.html">Ver más...</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Nausicaä<i class="material-icons right">close</i></span>
+                  <p>Nausicaä del Valle del Viento es una película de animación japonesa creada por Hayao Miyazaki en 1984, e inspirada en la novela gráfica homónima creado por el propio Miyazaki en el año 1982.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col l6 m12 s12">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/thething.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">The Thing<i class="material-icons right">more_vert</i></span>
+                  <p><a href="secciones.html">Ver más...</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Nausicaä<i class="material-icons right">close</i></span>
+                  <p>Nausicaä del Valle del Viento es una película de animación japonesa creada por Hayao Miyazaki en 1984, e inspirada en la novela gráfica homónima creado por el propio Miyazaki en el año 1982.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col l6 m12 s12">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/shining.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">El Resplandor<i class="material-icons right">more_vert</i></span>
+                  <p><a href="secciones.html">Ver más...</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Nausicaä<i class="material-icons right">close</i></span>
+                  <p>Nausicaä del Valle del Viento es una película de animación japonesa creada por Hayao Miyazaki en 1984, e inspirada en la novela gráfica homónima creado por el propio Miyazaki en el año 1982.</p>
+                </div>
+              </div>
+            </div>
+            
           </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
+          
         </div>
       </div>
-
-    </div>
-  </div>
-</main>
-
-<footer class="deep-purple darken-4 page-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Instituto Tecnológico de Chihuahua II</h5>
-          <p class="grey-text text-lighten-4"></p>
-
-
-        </div>
-        <div class="col l3 s12">
-          
-          
-        </div>
-
-      </div>
-    </div>
-    <div class="footer-copyright">
+      
+    </main>
+    <footer class="deep-purple darken-4 page-footer">
       <div class="container">
-      Copyright (R) Team FullStack 2.0 Chihuahua, Chihuahua
-      </div>
-    </div>
-  </footer>
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-  <script>
-	$('.button-collapse').sideNav({
-      menuWidth: 250, // Default is 300
-      edge: 'left', // Choose the horizontal origin
-      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
-      draggable: true, // Choose whether you can drag to open on touch screens,
-      onOpen: function(el) { /* Do Stuff*/ }, // A function to be called when sideNav is opened
-      onClose: function(el) { /* Do Stuff*/ }, // A function to be called when sideNav is closed
-    }
-  );
-</script>
-</body>
-</html>
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text center-align">Instituto Tecnológico de Chihuahua II</h5>
+            <p class="center-align grey-text text-lighten-4">Este es un texto de ejemplo para asignar a la descripción de una empresa en el pie de una página web.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <div class="video-container">
+              <iframe width="853" height="480" src="https://www.youtube.com/embed/hdsdzWxSxko" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer-copyright">
+          <div class=" center container">
+            Copyright (R) Team FullStack 2.0 Chihuahua, Chihuahua
+          </div>
+        </div>
+      </footer>
+      <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+      <script src="js/materialize.js"></script>
+      <script src="js/init.js"></script>
+    </body>
+  </html>

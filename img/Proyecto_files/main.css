@@ -9,8 +9,8 @@
   }
 
   header.bck1{
-    background-image: url("img/logo.png");
-    height: 200px;
+  	background-image: url("img/logo.png");
+  	height: 200px;
    /* background-size: cover;*/
     background-repeat: no-repeat;
   }
