@@ -24,3 +24,9 @@
     background: #424242;
     height: auto;
   }
+
+
+#imagencard{
+ max-height: 200px;
+    /*object-fit: cover;*/
+}

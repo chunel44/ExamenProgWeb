@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="img/filmreel_pelicula_3751.ico">
+		<title>Proyecto</title>
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body>
+		<header class="bck1 valign-wrapper">
+			<h1 style="font-size: 350%;" class="hide-on-med-and-down white-text valign center-block">Acerca De:</h1>
+			<h1 style="font-size: 300%;" class="center show-on-medium-and-down hide-on-med-and-up white-text valign center-block">Acerca De:</h1>
+		</header>
+		
+		<main style="background-color: #424242;">
+		<form name="Sugerencias" action="#" method="post" onsubmit="return valida(this)">
+			<div class="row">
+				<div id="navleft" class="col l2 s12 m12">
+					<table class="responsive-table">
+						<tbody>
+							<tr>
+								<td class="center-align">
+									<a class="grey-text lighten-2-text" href="index.html">Inicio</a>
+								</td>
+							</tr>
+							<tr>
+								<td class="center-align">
+									<a class="grey-text lighten-2-text" href="secciones.html">Secciones</a>
+								</td>
+							</tr>
+							<tr>
+								<td class="center-align">
+									<a class="grey-text lighten-2-text" href="acerca.html">Acerca de</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="container">
+					<div id="contenido" class="col s12 m9 l10 z-depth-2">
+						<div class="card medium">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img id="imagencard" class="activator" src="img/fullstack.png">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator grey-text text-darken-4">Contactanos<i class="material-icons right">more_vert</i></span>
+								<p>Siempre hay una Solucion...</p>
+							</div>
+							<div class="card-reveal">
+								<span class="center card-title grey-text text-darken-4">Contactanos<i class="material-icons right">close</i></span>
+								<div class="container">
+									<div class="row">
+										<div class="col s12 ">
+											<div class="input-field col s12 m12 l6">
+												<i class="material-icons prefix">account_circle</i>
+												<input type="text" id="Nombre" class="validate">
+												<label for="Nombre">Nombre Completo</label>
+											</div>
+											<div class="input-field col s12 m12 l6">
+												<i class="material-icons prefix">email</i>
+												<input type="email" id="Email" class="validate">
+												<label data-error="wrong" for="Email">Correo Electronico</label>
+											</div>
+										</div>
+										<div class="col s12 ">
+											<div class="input-field col s12 m4 l4">
+												<i class="material-icons prefix">phone</i>
+												<input type="text" id="Telefono" class="validate">
+												<label for="Telefono">Telefono</label>
+											</div>
+											<div class="input-field col s12 m4 l4 ">
+												<i class="material-icons prefix">person</i>
+												<input type="text" id="NoControl" class="validate">
+												<label  for="NoControl">No. De Control</label>
+											</div>
+											<div class="input-field col s12 m4 l4">
+												<i class="material-icons prefix">school</i>
+												<select id="Carrera" class="validate">
+													<option value="" disabled selected>Choose your option</option>
+													<option value="Administracion">Administración</option>
+													<option value="Gestion Empresarial">Gestión Empresarial</option>
+													<option value="Mecatronica">Mecatronica</option>
+													<option value="Alimentarias">Alimentarias</option>
+													<option value="Industrial">Industrial</option>
+													<option value="Sistemas">Sistemas</option>
+													<option value="Contador Publico">Contador Público</option>
+													<option value="Logistica">Logistica</option>
+													<option value="Arquitectura">Arquitectura</option>
+												</select>
+												<label>Carrera</label>
+											</div>
+										</div>
+										<div class="col s12 ">
+											<div class="input-field col s12 m6 l3"><i class="material-icons prefix">format_list_numbered</i>
+												<input type="text" id="Semestre" class="validate">
+												<label for="Semestre">Semestre</label></div>
+												<div class="input-field col s12 m6 l3"><i class="material-icons prefix">group</i>
+													<input type="text" id="Grupo" class="validate">
+													<label for="Grupo">Grupo</label></div>
+													<div class="input-field col s12 m6 l3"><i class="material-icons prefix">turned_in</i>
+														<input type="text" id="Turno" class="validate">
+														<label for="Turno">Turno</label></div>
+														<div class="input-field col s12 m6 l3"><i class="material-icons prefix">class</i>
+															<input type="text" id="Aula" class="validate">
+															<label for="Grupo">Aula</label></div>
+														</div>
+														<div class="col s12">
+															<div class="input-field col s12">
+																<i class="material-icons prefix">message</i>
+																<textarea id="Queja" class="materialize-textarea"></textarea>
+																<label class="" for="Queja">Queja / Sugerencia</label>
+															</div>
+														</div>
+														<div class="col s12">
+															<div class="center-align input-field col s12">
+																<button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+																<i class="material-icons right">send</i>
+																</button>
+															</div>
+														</div>
+													</div>
+													
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+							
+						</main>
+						<footer class="deep-purple darken-4 page-footer">
+							<div class="container">
+								<div class="row">
+									<div class="col l6 s12">
+										<h5 class="white-text center-align">Instituto Tecnológico de Chihuahua II</h5>
+										<p class="center-align grey-text text-lighten-4">Este es un texto de ejemplo para asignar a la descripción de una empresa en el pie de una página web.</p>
+									</div>
+									<div class="col l4 offset-l2 s12">
+										<div class="video-container">
+											<iframe width="853" height="480" src="https://www.youtube.com/embed/hdsdzWxSxko" frameborder="0" allowfullscreen></iframe>
+										</div>
+									</div>
+								</div>
+								
+								<div class="footer-copyright">
+									<div class=" center container">
+										Copyright (R) Team FullStack 2.0 Chihuahua, Chihuahua
+									</div>
+								</div>
+							</footer>
+							<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+							<script src="js/materialize.js"></script>
+							<script src="js/init.js"></script>
+							<script>
+							$(document).ready(function() {
+							$('select').material_select();
+							$('#Queja').trigger('autoresize');
+							});
+							function valida(f) {
+							var ok = true;
+							var msg = "Debes escribir en todos los campos:\n";
+							
+							if(f.Nombre.value == ""){
+							ok = false;
+							}else if(f.Telefono.value == ""){
+							ok = false;
+							}else if(f.Email.value == ""){
+							ok = false;
+							}else if(f.NoControl.value == ""){
+							ok = false;
+							}else if(f.Carrera.value == ""){
+							ok = false;
+							}else if(f.Semestre.value == ""){
+							ok = false;
+							}else if(f.Grupo.value == ""){
+							ok = false;
+							}else if(f.Turno.value == ""){
+							ok = false;
+							}else if(f.Aula.value == ""){
+							ok = false;
+							}else if(f.Queja.value == ""){
+							ok = false;
+							}
+							if(ok == false)
+							Materialize.toast(msg, 4000)
+							return ok;
+							}
+							</script>
+						</body>
+					</html>
